@@ -1,0 +1,36 @@
+{
+  "name": "eplusui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "typecheck:play": "vue-tsc -p tsconfig.play.json --composite false --noEmit",
+    "typecheck:lib": "vue-tsc -p tsconfig.lib.json --composite false --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starerp-ai/eplusui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starerp-ai/eplusui/issues"
+  },
+  "homepage": "https://github.com/starerp-ai/eplusui#readme",
+  "dependencies": {
+    "@eplusui/constants": "workspace:*",
+    "@eplusui/directives": "workspace:*",
+    "@eplusui/hooks": "workspace:*",
+    "@eplusui/utils": "workspace:*",
+    "element-plus": "^2.9.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "vite": "^6.0.7"
+  }
+}

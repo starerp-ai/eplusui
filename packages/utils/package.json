@@ -1,0 +1,5 @@
+{
+  "name": "@eplusui/utils",
+  "private": true,
+  "main": "index.ts"
+}

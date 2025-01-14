@@ -1,0 +1,5 @@
+{
+  "extends": ["@vue/tsconfig/tsconfig.lib.json"],
+ 
+  "include": ["packages/**/*", "internal/build-utils/src/pkg.ts"]
+}
